@@ -484,6 +484,8 @@ class DeviceCategory(StrEnum):
 
     see https://github.com/home-assistant/core/issues/132844
     """
+    DGNZK = "dgnzk"
+    """Multi-function control panel (undocumented)"""
     DSD = "dsd"
     """Filament Light
 
@@ -574,6 +576,8 @@ class DeviceCategory(StrEnum):
     """
     YWCGQ = "ywcgq"
     """Tank Level Sensor (undocumented)"""
+    ZHZKP = "zhzkp"
+    """Smart control panel (undocumented)"""
     ZNNBQ = "znnbq"
     """VESKA-micro inverter (undocumented)"""
     ZNJDQ = "znjdq"

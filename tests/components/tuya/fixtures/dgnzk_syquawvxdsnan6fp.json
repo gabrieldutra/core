@@ -1,0 +1,70 @@
+{
+  "endpoint": "https://apigw.tuyaus.com",
+  "mqtt_connected": true,
+  "disabled_by": null,
+  "disabled_polling": false,
+  "name": "Bedroom panel",
+  "category": "dgnzk",
+  "product_id": "syquawvxdsnan6fp",
+  "product_name": "Painel Central Inteligente ",
+  "online": true,
+  "sub": true,
+  "time_zone": "-03:00",
+  "active_time": "2026-05-11T15:12:58+00:00",
+  "create_time": "2026-05-11T15:12:58+00:00",
+  "update_time": "2026-05-11T15:12:58+00:00",
+  "function": {
+    "switch_1": {
+      "type": "Boolean",
+      "value": {}
+    },
+    "switch_2": {
+      "type": "Boolean",
+      "value": {}
+    }
+  },
+  "status_range": {
+    "switch_1": {
+      "type": "Boolean",
+      "value": {}
+    },
+    "switch_2": {
+      "type": "Boolean",
+      "value": {}
+    }
+  },
+  "status": {
+    "switch_1": true,
+    "switch_2": false
+  },
+  "set_up": true,
+  "support_local": true,
+  "local_strategy": {
+    "16": {
+      "value_convert": "default",
+      "status_code": "switch_1",
+      "config_item": {
+        "statusFormat": {
+          "switch_1": "$"
+        },
+        "valueDesc": {},
+        "valueType": "Boolean",
+        "enumMappingMap": {},
+        "pid": "syquawvxdsnan6fp"
+      }
+    },
+    "17": {
+      "value_convert": "default",
+      "status_code": "switch_2",
+      "config_item": {
+        "statusFormat": {
+          "switch_2": "$"
+        },
+        "valueDesc": {},
+        "valueType": "Boolean",
+        "enumMappingMap": {},
+        "pid": "syquawvxdsnan6fp"
+      }
+    }
+  }
+}

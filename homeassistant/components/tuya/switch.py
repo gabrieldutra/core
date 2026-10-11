@@ -171,6 +171,18 @@ SWITCHES: dict[DeviceCategory, tuple[TuyaSwitchEntityDescription, ...]] = {
             entity_category=EntityCategory.CONFIG,
         ),
     ),
+    DeviceCategory.DGNZK: (
+        TuyaSwitchEntityDescription(
+            key=DPCode.SWITCH_1,
+            translation_key="indexed_switch",
+            translation_placeholders={"index": "1"},
+        ),
+        TuyaSwitchEntityDescription(
+            key=DPCode.SWITCH_2,
+            translation_key="indexed_switch",
+            translation_placeholders={"index": "2"},
+        ),
+    ),
     DeviceCategory.DJ: (
         # There are sockets available with an RGB light
         # that advertise as `dj`, but provide an additional
@@ -918,6 +930,18 @@ SWITCHES: dict[DeviceCategory, tuple[TuyaSwitchEntityDescription, ...]] = {
             key=DPCode.MUFFLING,
             translation_key="mute",
             entity_category=EntityCategory.CONFIG,
+        ),
+    ),
+    DeviceCategory.ZHZKP: (
+        TuyaSwitchEntityDescription(
+            key=DPCode.SWITCH_1,
+            translation_key="indexed_switch",
+            translation_placeholders={"index": "1"},
+        ),
+        TuyaSwitchEntityDescription(
+            key=DPCode.SWITCH_2,
+            translation_key="indexed_switch",
+            translation_placeholders={"index": "2"},
         ),
     ),
     DeviceCategory.ZNDB: (

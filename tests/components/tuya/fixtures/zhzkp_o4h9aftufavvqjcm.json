@@ -1,0 +1,70 @@
+{
+  "endpoint": "https://apigw.tuyaus.com",
+  "mqtt_connected": true,
+  "disabled_by": null,
+  "disabled_polling": false,
+  "name": "Rooftop panel",
+  "category": "zhzkp",
+  "product_id": "o4h9aftufavvqjcm",
+  "product_name": "PAINEL CENTRAL INTELIGENTE MIDPANEL 8",
+  "online": true,
+  "sub": true,
+  "time_zone": "-03:00",
+  "active_time": "2026-05-17T20:34:41+00:00",
+  "create_time": "2026-05-17T20:34:41+00:00",
+  "update_time": "2026-05-17T20:34:41+00:00",
+  "function": {
+    "switch_1": {
+      "type": "Boolean",
+      "value": {}
+    },
+    "switch_2": {
+      "type": "Boolean",
+      "value": {}
+    }
+  },
+  "status_range": {
+    "switch_1": {
+      "type": "Boolean",
+      "value": {}
+    },
+    "switch_2": {
+      "type": "Boolean",
+      "value": {}
+    }
+  },
+  "status": {
+    "switch_1": false,
+    "switch_2": false
+  },
+  "set_up": true,
+  "support_local": true,
+  "local_strategy": {
+    "3": {
+      "value_convert": "default",
+      "status_code": "switch_1",
+      "config_item": {
+        "statusFormat": {
+          "switch_1": "$"
+        },
+        "valueDesc": {},
+        "valueType": "Boolean",
+        "enumMappingMap": {},
+        "pid": "o4h9aftufavvqjcm"
+      }
+    },
+    "4": {
+      "value_convert": "default",
+      "status_code": "switch_2",
+      "config_item": {
+        "statusFormat": {
+          "switch_2": "$"
+        },
+        "valueDesc": {},
+        "valueType": "Boolean",
+        "enumMappingMap": {},
+        "pid": "o4h9aftufavvqjcm"
+      }
+    }
+  }
+}
